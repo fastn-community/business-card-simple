@@ -1,0 +1,44 @@
+-- component back:
+caption company:
+ftd.image-src logo:
+
+-- ftd.column:
+width.fixed.px: 700
+height.fixed.px: 350
+background.solid: $inherited.colors.background.base
+border-width.px: 1
+border-color: $inherited.colors.border
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.image: $back-bg
+align-content: center
+
+-- ftd.image: $back.logo
+max-width.fixed.px: 100
+
+-- ftd.text: $back.company
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+width: fill-container
+text-align: center
+margin-top.px: 16
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: back
+
+
+
+
+
+
+
+
+-- ftd.background-image back-bg:
+src: $assets.files.images.back-bg.svg
+size: cover
+repeat: no-repeat
