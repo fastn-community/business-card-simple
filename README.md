@@ -2,7 +2,7 @@
 
 In this fastn package you will find a business card.
 
-![img.png](img.png)
+![img.png](assets/img.png)
 
 ## What Is `fastn`
 
