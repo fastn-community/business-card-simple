@@ -39,6 +39,6 @@ margin-top.px: 16
 
 
 -- ftd.background-image back-bg:
-src: $assets.files.images.back-bg.svg
+src: $assets.files.assets.back-bg.svg
 size: cover
 repeat: no-repeat

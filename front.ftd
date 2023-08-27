@@ -34,17 +34,17 @@ role: $inherited.types.copy-small
 -- line:
 
 -- image-and-info:
-image: $assets.files.images.contact.png
+image: $assets.files.assets.contact.png
 info-1: $front.contact-1
 info-2: $front.contact-2
 
 -- image-and-info:
-image: $assets.files.images.website.png
+image: $assets.files.assets.website.png
 info-1: $front.website-1
 info-2: $front.website-2
 
 -- image-and-info:
-image: $assets.files.images.location.png
+image: $assets.files.assets.location.png
 info-1: $front.location
 
 -- end: ftd.column
@@ -138,7 +138,7 @@ margin-bottom.px: 20
 
 
 -- ftd.background-image logo-bg:
-src: $assets.files.images.logo-bg.svg
+src: $assets.files.assets.logo-bg.svg
 size: contain
 position: right
 repeat: no-repeat

@@ -7,7 +7,7 @@
 -- front.front: John Doe
 title: Software Developer
 company: John Doe Pvt. Ltd.
-logo: $assets.files.images.logo.svg
+logo: $assets.files.assets.logo.svg
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 website-1: john@johndoe.com
@@ -16,7 +16,7 @@ location: 123, Block No. A-123, Times Square, Bangalore - 123456
 
 
 -- back.back: John Doe Pvt. Ltd.
-logo: $assets.files.images.logo.svg
+logo: $assets.files.assets.logo.svg
 
 
 -- end: ds.page
