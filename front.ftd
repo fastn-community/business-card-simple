@@ -1,0 +1,144 @@
+-- component front:
+caption name:
+string title:
+string company:
+ftd.image-src logo:
+optional string contact-1:
+optional string contact-2:
+optional string website-1:
+optional string website-2:
+optional string location:
+
+
+-- ftd.row:
+width.fixed.px: 700
+height.fixed.px: 350
+background.solid: $inherited.colors.background.base
+spacing: space-around
+border-width.px: 1
+border-color: $inherited.colors.border
+
+-- ftd.column:
+width.fixed.percent: 50
+padding-vertical.px: 40
+padding-left.px: 40
+
+-- ftd.text: $front.name
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-medium
+
+-- ftd.text: $front.title
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- line:
+
+-- image-and-info:
+image: $assets.files.images.contact.png
+info-1: $front.contact-1
+info-2: $front.contact-2
+
+-- image-and-info:
+image: $assets.files.images.website.png
+info-1: $front.website-1
+info-2: $front.website-2
+
+-- image-and-info:
+image: $assets.files.images.location.png
+info-1: $front.location
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 50
+background.image: $logo-bg
+height: fill-container
+align-content: center
+
+-- ftd.image:
+src: $front.logo
+width.fixed.px: 80
+margin-left.px: 120
+
+-- ftd.text: $front.company
+color: white
+role: $inherited.types.heading-small
+text-align: center
+margin-left.px: 120
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: front
+
+
+
+
+
+
+
+
+-- component image-and-info:
+ftd.image-src image:
+optional string info-1:
+optional string info-2:
+
+
+-- ftd.row:
+width: fill-container
+if: { image-and-info.info-1 != NULL || image-and-info.info-2 != NULL }
+spacing.fixed.px: 10
+margin-bottom.px: 10
+
+-- ftd.image:
+src: $image-and-info.image
+width.fixed.px: 35
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+role: $inherited.types.fine-print
+
+-- ftd.text: $image-and-info.info-1
+if: { image-and-info.info-1 != NULL }
+
+-- ftd.text: $image-and-info.info-2
+if: { image-and-info.info-2 != NULL }
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: image-and-info
+
+
+
+
+-- component line:
+
+-- ftd.row:
+width.fixed.px: 50
+border-color: red
+border-bottom-width.px: 3
+margin-top.px: 5
+margin-bottom.px: 20
+
+-- end: ftd.row
+
+-- end: line
+
+
+
+
+
+
+
+
+
+-- ftd.background-image logo-bg:
+src: $assets.files.images.logo-bg.svg
+size: contain
+position: right
+repeat: no-repeat

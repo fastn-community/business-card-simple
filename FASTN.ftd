@@ -6,6 +6,7 @@ favicon: /-/fastn-community.github.io/business-card-simple/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
 -- fastn.auto-import: fastn-community.github.io/business-card-simple/FASTN/ds
 -- fastn.auto-import: fastn-community.github.io/business-card-simple/assets
@@ -14,5 +15,3 @@ favicon: /-/fastn-community.github.io/business-card-simple/favicon.ico
 -- fastn.sitemap:
 
 # Home: index.html
-
-- Right Sidebar Sample: /sidebar/
