@@ -1,42 +1,32 @@
-# Overview
+# Business Card using `fastn`
 
-[doc-site](https://fastn-community.github.io/doc-site/) will help you create
-a beautiful documentation site in no time.
+In this fastn package you will find a business card.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+![img.png](img.png)
 
-# Preview
+## What Is `fastn`
 
-![doc-site](.github/assets/doc-site-example-dark.jpg)
+`fastn` is a simple programming language for building user interfaces and 
+websites. `fastn` is optimised for ease of learning, and even non 
+programmers can learn it in a day.
 
-## Get Rolling
+Learn more about `fastn`: [fastn-stack/fastn](https://github. com/fastn-stack/fastn), and join our [Discord community](https://fastn. com/discord/).
 
-[Click here](https://fastn-community.github.io/doc-site/) to learn how to use this template.
+## How To Run This Project
 
-# [Dive into the Docs](https://fastn-community.github.io/doc-site/)
+Install `fastn` on Mac/Linux using:
 
-# See it in Action!
+```sh
+curl -fsSL https://fastn.com/install.sh | bash
+```
 
-Explore websites and projects that have utilized this component/template 
-**[here](https://fastn-community.github.io/doc-site/#dart-used-by)** for
-inspiration.
+For windows download our [fastn_setup.exe](https://github.com/fastn-stack/fastn/releases/latest) from latest `fastn` release and 
+run it.
 
-## fastn and Curious?
+Once you have `fastn` installed you can run:
 
-Discover more of fastn here.
+```shell
+fastn serve
+```
 
-- [Expander Crash Course](https://fastn.com/expander/)
-- [Video Tutorials](https://fastn.com/expander/hello-world/-/build/)
-- [Explore more Templates/ Components/ Package](https://fastn.com/featured/)
-
-## Become a fastn Contributor
-
-1.  Finish the [Expander Crash Course](https://fastn.com/expander/)
-2.  Share your progress and ideas on [Discord](https://discord.gg/bucrdvptYd).
-3.  Let our team guide you on your contributor journey.
-
-## Become a fastn-trailblazer
-
-- [Join our Discord Server](https://discord.gg/bucrdvptYd) to connect with other fastn enthusiasts and stay up to date with the latest developments.
-- [Star us on GitHub](https://github.com/fastn-stack/fastn/)
+And check your website on `http://127.0.0.1:8000`.
