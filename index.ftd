@@ -1,5 +1,5 @@
--- import: fastn-community.github.io/business-card-simple/lib/front
--- import: fastn-community.github.io/business-card-simple/lib/back
+-- import: <user_name>.github.io/<repo_name>/lib/front
+-- import: <user_name>.github.io/<repo_name>/lib/back
 
 -- ds.page: Business Card
 
