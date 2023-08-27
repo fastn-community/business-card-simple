@@ -10,7 +10,7 @@ In this fastn package you will find a business card.
 websites. `fastn` is optimised for ease of learning, and even non 
 programmers can learn it in a day.
 
-Learn more about `fastn`: [fastn-stack/fastn](https://github. com/fastn-stack/fastn), and join our [Discord community](https://fastn. com/discord/).
+Learn more about `fastn`: [fastn-stack/fastn](https://github.com/fastn-stack/fastn), and join our [Discord community](https://fastn.com/discord/).
 
 ## How To Run This Project
 
